@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const span = document.createElement('span');
     span.innerText = text[i];
     
-    const angle = (i * 8.5); // Adjust this value to fit your circle
+    const angle = (i * 5.5); // Reduced angle to fit more characters
     span.style.transform = `rotate(${angle}deg)`;
     span.dataset.baseAngle = angle; // Store the base angle for later use
     

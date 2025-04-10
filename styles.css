@@ -62,18 +62,12 @@ body {
   font-family: consolas;
   color: #000;
   font-size: 17px;
-  animation: textRotation 8s linear infinite;
-}
-
-@keyframes textRotation {
-  to {
-    transform: rotate(360deg);
-  }
+  /* Animation removed in favor of scroll-based rotation */
 }
 
 .text span {
   position: absolute;
   left: 50%;
-  font-size: 1.2em;
+  font-size: 0.8em;
   transform-origin: 0 100px;
 }
